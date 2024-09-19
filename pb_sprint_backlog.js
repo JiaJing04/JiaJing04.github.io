@@ -96,7 +96,8 @@ function createTaskCard(task, key)
         // display the task details page
 
         localStorage.setItem("taskEdit", key);
-        window.location.replace("task_details_edit.html");
+        // window.location.replace("task_details_edit.html");
+        window.location.href = "task_details_edit.html";
     });
 
    // Task priority with color coding
@@ -158,7 +159,8 @@ function createTaskCard(task, key)
    
     taskCard.addEventListener('click', (e) => {
         localStorage.setItem("taskDetails", key);
-        window.location.replace("task_details_view.html");
+        // window.location.replace("task_details_view.html");
+        window.location.href = "task_details_view.html";
     });
 
     taskCard.id = `task-${key}`;  // Ensure the card has a unique ID
@@ -208,7 +210,8 @@ function createTaskCard2(task, key)
         // display the task details page
 
         localStorage.setItem("taskEdit", key);
-        window.location.replace("task_details_edit.html");
+        // window.location.replace("task_details_edit.html");
+        window.location.href = "task_details_edit.html";
     });
 
    // Task priority with color coding
@@ -270,7 +273,8 @@ function createTaskCard2(task, key)
 
     taskCard.addEventListener('click', (e) => {
         localStorage.setItem("taskDetails", key);
-        window.location.replace("task_details_view.html");
+        // window.location.replace("task_details_view.html");
+        window.location.href = "task_details_view.html";
     });
 
     taskCard.id = `task-${key}`;  // Ensure the card has a unique ID
