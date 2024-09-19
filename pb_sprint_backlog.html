@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backlog Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pb_sprint_backlog.css">
+</head>
+<body>
+    <h1>Backlog Form</h1>
+    <div class="sprint-columns">
+        <!-- Sprint Backlog Column -->
+        <div class="column" id="product-backlog">
+            <h2>Product Backlog</h2>
+            <hr>
+            <!-- Placeholder for dynamically adding task cards from Firebase -->
+        </div>
+
+        <!-- Sprint Backlog Column (for future tasks) -->
+        <div class="column" id="sprint-backlog">
+            <h2>Sprint Backlog</h2>
+            <hr>
+            <!-- Placeholder for future tasks -->
+        </div>
+    </div>
+
+    <!-- Include Firebase Libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="pb_sprint_backlog.js"></script>
+</body>
+</html>
