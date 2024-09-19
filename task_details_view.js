@@ -16,7 +16,13 @@ document.addEventListener('DOMContentLoaded', function ()
     doneButton.addEventListener('click', function () 
     {
         console.log('hi')
-        window.history.back();
+        // window.history.back();
+        if (window.history.length > 1) {
+            window.history.back();
+        } else {
+            alert("No previous page in history!");
+        }
+        
     });
 });
 
