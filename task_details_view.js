@@ -8,17 +8,17 @@ const taskProjectStage = document.getElementById("project-stage-of-task");
 const taskTag = document.getElementById("tag-of-task");
 const taskAssignees = document.getElementById("assignees-of-task");
 
-document.addEventListener('DOMContentLoaded', function () 
-{
+// document.addEventListener('DOMContentLoaded', function () 
+// {
 
-    const doneButton = document.getElementById('done-button');
+//     const doneButton = document.getElementById('done-button');
 
-    doneButton.addEventListener('click', function () 
-    {
-        console.log('hi')
-        window.history.back();
-    });
-});
+//     doneButton.addEventListener('click', function () 
+//     {
+//         console.log('hi')
+//         window.history.back();
+//     });
+// });
 
 // Retrieve the target task card key
 const retrievedDetails = localStorage.getItem("taskDetails")
